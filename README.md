@@ -1,7 +1,7 @@
 This is the github repository to a question in Streamlit forums
 feel free to check out the post in the forum via the link below:
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://redalerts.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://discuss.streamlit.io/t/how-can-i-change-the-fontfamily-of-a-chart/69977)
 
 
 # Introduction
