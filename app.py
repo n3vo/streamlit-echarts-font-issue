@@ -1,14 +1,18 @@
 import streamlit as st
 from streamlit_echarts import st_echarts
 
+#Open CSS file
 with open("styles.css") as css:
     st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html= True)
-    st.title("Custom Font Example")
-    st.write("Hi! This is an example text")
-# Define your ECharts options
+
+#Testing to see if CSS applies to text
+st.title("Custom Font Example")
+st.write("Hi! This is an example text")
+
+# Define ECharts options
 options = {
     "textStyle": {
-        "fontFamily": "Jost"
+        "fontFamily": "Jost" #Doesn't work for me
     },
     "title": {
         "text": "Sample Chart",
